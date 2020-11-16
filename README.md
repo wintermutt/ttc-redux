@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Example game from the [official React tutorial](https://reactjs.org/tutorial/tutorial.html), converted to use [Redux Toolkit](https://redux-toolkit.js.org/) and [Hooks](https://react-redux.js.org/api/hooks).
+
+Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
