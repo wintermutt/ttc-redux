@@ -1,6 +1,12 @@
 # Tic-Tac-Toe Redux
 
-Example game from the [official React tutorial](https://reactjs.org/tutorial/tutorial.html), converted to use [Redux Toolkit](https://redux-toolkit.js.org/) and [Hooks](https://react-redux.js.org/api/hooks).
+Example game from the [official React tutorial](https://reactjs.org/tutorial/tutorial.html), converted to use:
+
+- Function components
+- [React-redux hooks](https://react-redux.js.org/api/hooks)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- Config overrides with [customize-cra](https://github.com/arackaf/customize-cra) and [react-app-rewired](https://github.com/timarney/react-app-rewired/)
+- Scoped styles with [styled-jsx](https://github.com/vercel/styled-jsx)
 
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

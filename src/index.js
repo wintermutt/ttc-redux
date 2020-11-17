@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { configureStore } from '@reduxjs/toolkit'
 import gameSlice from './features/gameSlice'
 import Game from './Game'
-import './index.css'
+import './global.css'
 
 const store = configureStore({
 	reducer: combineReducers({
