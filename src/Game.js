@@ -1,10 +1,12 @@
+import Status from './Status'
 import Board from './Board'
 
 export default function Game() {
 	return (
 		<>
 			<div className="game">
-				<div className="game-board">
+				<div>
+					<Status/>
 					<Board />
 				</div>
 				<div className="game-info">
