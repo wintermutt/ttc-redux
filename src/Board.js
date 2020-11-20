@@ -1,12 +1,15 @@
+import { useSelector } from 'react-redux'
 import Square from './Square'
 
-const repeat = (times) => [...Array(times).keys()]
-
 export default function Board() {
+	const { squares } = useSelector(state => state.game)
+
 	return (
 		<>
 			<div>
-				{repeat(9).map(i => <Square key={i} id={i} />)}
+				{squares.map((v, i) =>
+					<Square key={i} id={i} />
+				)}
 			</div>
 
 			<style jsx>{`
