@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 
-export default () => {
+export default function Status() {
 	const { player, winner } = useSelector(state => state.game)
 
 	const status = winner
